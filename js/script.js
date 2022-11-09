@@ -64,6 +64,7 @@ function addTodo() {
         saveBtn.style.color = "white"
 
         saveBtn.addEventListener("click", save);
+        todoItem.removeChild(btnRemove);
 
         todoItem.appendChild(saveBtn);
 
