@@ -77,6 +77,7 @@ function addTodo() {
                 let newTodo = todoInput.value;
     
                 todoInput.setAttribute("disabled", "");
+                todoItem.appendChild(btnRemove);
                 todoItem.removeChild(saveBtn);
     
                 message = "Save successfully";
