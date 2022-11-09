@@ -60,7 +60,7 @@ function addTodo() {
         saveBtn.classList = "saveBtn";
         saveBtn.style.border = "none";
         saveBtn.style.borderRadius = "100px";
-        saveBtn.style.backgroundColor = "black"
+        saveBtn.style.backgroundColor = "teal"
         saveBtn.style.color = "white"
 
         saveBtn.addEventListener("click", save);
